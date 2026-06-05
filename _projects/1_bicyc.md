@@ -7,7 +7,9 @@ importance: 1
 category: research
 ---
 
-![BiCyc overview](/assets/img/projects/bicyc_main.png)
+<p align="center">
+<img src="/assets/img/projects/bicyc_main.png" alt="BiCyc overview" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 0.5rem auto 1.5rem auto; border-radius: 8px;">
+</p>
 
 **BiCyc** studies prototype drift in exemplar-free class-incremental learning. Instead of learning only a one-way post-hoc projection from old features to new features, this project jointly learns two maps, old→new and new→old, with a cycle-consistency objective so that prototype transport and representation learning co-evolve during incremental training.
 
