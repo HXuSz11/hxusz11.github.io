@@ -4,7 +4,11 @@ title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
-profile:
+profile: I am a Ph.D. student in Imaging Science at Rochester Institute of Technology. My research focuses on machine learning, computer vision, and continual learning.
+
+I am interested in building adaptive and reliable visual learning systems that can learn from evolving data streams without catastrophic forgetting. Recently, I have been working on exemplar-free class-incremental learning, prototype-based continual learning, and parameter-efficient adaptation of pretrained vision models.
+
+My broader research interests include continual learning, computer vision, efficient adaptation, vision-language learning, and trustworthy AI systems.
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
