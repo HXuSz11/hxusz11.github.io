@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "FARA: Failure-Aware Residual Adaptation for Class-Incremental Learning"
+title: "Failure-Aware Residual Adaptation for Class-Incremental Learning"
 description: Failure-localized residual correction for PEFT-based continual learning
 img: assets/img/projects/fara_thumb.png
 importance: 3
 category: research
-published: false
+published: true
 ---
 
 ![FARA overview](/assets/img/projects/fara_main.png)
