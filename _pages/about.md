@@ -27,7 +27,7 @@ latest_posts:
   limit: 3
 ---
 
-I am a Ph.D. student in Imaging Science at Rochester Institute of Technology, advised by Prof. Bartosz Krawczyk. My research focuses on machine learning, computer vision, and continual learning.
+I am a Ph.D. student in Imaging Science at Rochester Institute of Technology, where I am advised by Prof. Bartosz Krawczyk. My research focuses on machine learning, computer vision, and continual learning.
 
 I am interested in building adaptive and reliable visual learning systems that can learn from evolving data streams without catastrophic forgetting. Recently, I have been working on exemplar-free class-incremental learning, prototype-based continual learning, and parameter-efficient adaptation of pretrained vision models.
 
