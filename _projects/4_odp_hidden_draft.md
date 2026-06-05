@@ -5,12 +5,11 @@ description: Class-adaptive preservation for exemplar-free class-incremental lea
 img: assets/img/projects/odp_thumb.png
 importance: 4
 category: research
-published: false
+published: true
 ---
 
 ![ODP overview](/assets/img/projects/odp_main.png)
 
-**Note:** This file is marked `published: false` because the project may still be under anonymous review. Remove `published: false` only when it is safe to make this page public.
 
 This project studies heterogeneous representation drift in prototype-based exemplar-free class-incremental learning. Instead of applying uniform preservation strength to all old classes, Online Drift Projection estimates class-wise drift by projecting stored old-class prototypes into the current feature space.
 
