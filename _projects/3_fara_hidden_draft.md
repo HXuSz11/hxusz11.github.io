@@ -8,7 +8,9 @@ category: research
 published: true
 ---
 
-![FARA overview](/assets/img/projects/fara_main.png)
+<p align="center">
+<img src="/assets/img/projects/fara_main.png" alt="FARA overview" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 0.5rem auto 1.5rem auto; border-radius: 8px;">
+</p>
 
 This project studies parameter-efficient class-incremental learning with frozen pre-trained vision models. Rather than uniformly enlarging task-level adapters, FARA identifies residual failure regions left by the primary adaptation path and allocates a separate correction stream to those empirically mined failures.
 
