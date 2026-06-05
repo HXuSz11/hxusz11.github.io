@@ -7,7 +7,9 @@ importance: 2
 category: research
 ---
 
-![Prototype rehearsal overview](/assets/img/projects/prototype_rehearsal_main.png)
+<p align="center">
+<img src="/assets/img/projects/prototype_rehearsal_main.png" alt="Prototype rehearsal overview" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0.5rem auto 1.5rem auto; border-radius: 8px;">
+</p>
 
 This project revisits prototype rehearsal for exemplar-free class-incremental learning. We argue that prototype rehearsal is not fundamentally limited; rather, common implementations suffer from two issues: they treat prototypes as isolated class summaries and they ignore the hidden imbalance between a few synthetic old-class samples and many real current-task samples.
 
