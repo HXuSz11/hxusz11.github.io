@@ -8,7 +8,9 @@ category: research
 published: true
 ---
 
-![ODP overview](/assets/img/projects/odp_main.png)
+<p align="center">
+<img src="/assets/img/projects/odp_main.png" alt="ODP overview" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 0.5rem auto 1.5rem auto; border-radius: 8px;">
+</p>
 
 
 This project studies heterogeneous representation drift in prototype-based exemplar-free class-incremental learning. Instead of applying uniform preservation strength to all old classes, Online Drift Projection estimates class-wise drift by projecting stored old-class prototypes into the current feature space.
