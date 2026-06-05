@@ -185,7 +185,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-received-the-icml-2026-gold-reviewer-award",
           title: 'I received the ICML 2026 Gold Reviewer Award.',
           description: "",
-          section: "News",},{id: "projects-exemplar-free-continual-learning",
+          section: "News",},{id: "projects-two-way-is-better-than-one-bidirectional-alignment-with-cycle-consistency",
+          title: 'Two-Way Is Better Than One: Bidirectional Alignment with Cycle Consistency',
+          description: "Bidirectional projector alignment for exemplar-free class-incremental learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_bicyc/";
+            },},{id: "projects-exemplar-free-continual-learning",
           title: 'Exemplar-Free Continual Learning',
           description: "Prototype-based learning without storing raw exemplars",
           section: "Projects",handler: () => {
@@ -195,6 +200,11 @@ ninja.data = [{
           description: "Lightweight adaptation of pretrained vision models under evolving tasks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_peft_cl/";
+            },},{id: "projects-revisiting-prototype-rehearsal-for-exemplar-free-continual-learning",
+          title: 'Revisiting Prototype Rehearsal for Exemplar-Free Continual Learning',
+          description: "Manifold-aware boundary sampling with adaptive class-balanced loss",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_prototype_rehearsal/";
             },},{id: "projects-continual-learning-for-vision-and-vision-language-models",
           title: 'Continual Learning for Vision and Vision-Language Models',
           description: "Forgetting and adaptation in modern visual foundation models",
