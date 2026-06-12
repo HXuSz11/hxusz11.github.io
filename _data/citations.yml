@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-12'
 papers:
   EIXjwEAAAAAJ:2osOgNQ5qMEC:
     citations: 6
@@ -22,7 +22,7 @@ papers:
     title: In vitro machine learning-based CAR T immunological synapse quality measurements correlate with patient clinical outcomes
     year: '2022'
   EIXjwEAAAAAJ:qjMakFHDy7sC:
-    citations: 35
+    citations: 36
     title: A systematic evaluation of computational methods for cell segmentation
     year: '2024'
   EIXjwEAAAAAJ:zYLM7Y9cAGgC:
