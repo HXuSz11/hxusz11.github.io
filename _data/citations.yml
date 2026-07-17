@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-17'
 papers:
   EIXjwEAAAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -17,12 +17,16 @@ papers:
     citations: 0
     title: 'Two-Way Is Better Than One: Bidirectional Alignment with Cycle Consistency for Exemplar-Free Class-Incremental Learning'
     year: '2026'
+  EIXjwEAAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: Geometry-Anchored Transport Framework for Exemplar-Free Class-Incremental Learning
+    year: '2026'
   EIXjwEAAAAAJ:d1gkVwhDpl0C:
     citations: 72
     title: In vitro machine learning-based CAR T immunological synapse quality measurements correlate with patient clinical outcomes
     year: '2022'
   EIXjwEAAAAAJ:qjMakFHDy7sC:
-    citations: 39
+    citations: 40
     title: A systematic evaluation of computational methods for cell segmentation
     year: '2024'
   EIXjwEAAAAAJ:zYLM7Y9cAGgC:
