@@ -3,6 +3,7 @@ layout: default
 permalink: /blog/
 title: blog
 nav: false
+published: false # template example page, not linked from the site
 nav_order: 1
 pagination:
   enabled: true

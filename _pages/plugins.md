@@ -3,6 +3,7 @@ layout: page
 title: plugins
 permalink: /plugins/
 nav: false
+published: false # template example page, not linked from the site
 description: featured and bundled plugin ecosystem catalog for al-folio v1.x
 ---
 

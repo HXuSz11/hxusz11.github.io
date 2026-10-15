@@ -3,6 +3,7 @@ layout: book-shelf
 title: bookshelf
 permalink: /books/
 nav: false
+published: false # template example page, not linked from the site
 collection: books
 ---
 

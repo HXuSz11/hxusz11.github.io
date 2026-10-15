@@ -4,6 +4,7 @@ permalink: /people/
 title: people
 description: members of the lab or group
 nav: false
+published: false # template example page, not linked from the site
 nav_order: 7
 
 profiles:

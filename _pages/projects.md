@@ -80,6 +80,15 @@ nav_order: 3
 
 <div class="projects-grid">
 
+<a class="project-card-custom" href="/projects/0_gatf/">
+<img src="/assets/img/projects/gatf_thumb.png" alt="GATF project thumbnail">
+<div class="project-card-body">
+<div class="project-tag">ECCV 2026</div>
+<h3>Geometry-Anchored Transport Framework for Exemplar-Free Class-Incremental Learning</h3>
+<p>Analytic geometric anchoring with topology-aware evolution for training-time feature transport.</p>
+</div>
+</a>
+
 <a class="project-card-custom" href="/projects/1_bicyc/">
 <img src="/assets/img/projects/bicyc_thumb.png" alt="BiCyc project thumbnail">
 <div class="project-card-body">
@@ -90,7 +99,7 @@ nav_order: 3
 </a>
 
 <a class="project-card-custom" href="/projects/2_prototype_rehearsal/">
-<img src="/assets/img/projects/prototype_rehearsal_thumb.png" alt="Prototype rehearsal project thumbnail">
+<img src="/assets/img/projects/prototype_rehearsal_thumb.png" alt="Prototype rehearsal project thumbnail" loading="lazy">
 <div class="project-card-body">
 <div class="project-tag">CVPR 2026 Findings</div>
 <h3>Revisiting Prototype Rehearsal for Exemplar-Free Continual Learning</h3>
@@ -98,8 +107,17 @@ nav_order: 3
 </div>
 </a>
 
+<a class="project-card-custom" href="/projects/5_slarc/">
+<img src="/assets/img/projects/slarc_thumb.png" alt="SLARC project thumbnail" loading="lazy">
+<div class="project-card-body">
+<div class="project-tag">Submitted to ICLR 2027</div>
+<h3>SLARC: Shrinkage-Controlled Low-Rank Alignment and Regularized Classification</h3>
+<p>Shrinkage-controlled mean alignment and regularized Gaussian classification for continually adapted pre-trained models.</p>
+</div>
+</a>
+
 <a class="project-card-custom" href="/projects/3_fara_hidden_draft/">
-<img src="/assets/img/projects/fara_thumb.png" alt="FARA project thumbnail">
+<img src="/assets/img/projects/fara_thumb.png" alt="FARA project thumbnail" loading="lazy">
 <div class="project-card-body">
 <div class="project-tag">PEFT-CIL</div>
 <h3>Failure-Aware Residual Adaptation for Class-Incremental Learning</h3>
@@ -108,7 +126,7 @@ nav_order: 3
 </a>
 
 <a class="project-card-custom" href="/projects/4_odp_hidden_draft/">
-<img src="/assets/img/projects/odp_thumb.png" alt="ODP project thumbnail">
+<img src="/assets/img/projects/odp_thumb.png" alt="ODP project thumbnail" loading="lazy">
 <div class="project-card-body">
 <div class="project-tag">EFCIL</div>
 <h3>Adaptive Distillation via Online Drift Projection</h3>

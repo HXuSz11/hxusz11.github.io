@@ -15,6 +15,8 @@ module.exports = {
     "table-responsive",
     "af-tooltip",
     "af-popover",
+    // vanilla-back-to-top injects #back-to-top at runtime, so it never appears in scanned HTML
+    "back-to-top",
     "font-weight-bold",
     "font-weight-medium",
     "font-weight-lighter",

@@ -1,0 +1,317 @@
+/*******************************************************************************
+ * Site-local style overrides (loaded last from assets/css/main.scss)
+ ******************************************************************************/
+
+/* ---------- Color tokens ---------- */
+
+:root {
+  --global-theme-color: #1f5fbf;
+  --global-hover-color: #1f5fbf;
+  --global-text-color-light: #6b6b6b; // theme #828282 is below 4.5:1 on white
+  --global-code-bg-color: rgba(31, 95, 191, 0.06);
+  --site-accent-soft: rgba(31, 95, 191, 0.08);
+  --site-card-border: rgba(15, 23, 42, 0.1);
+  --site-card-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #7cb4ff;
+  --global-hover-color: #7cb4ff;
+  --global-text-color-light: #a3a3a3;
+  --site-accent-soft: rgba(124, 180, 255, 0.12);
+  --site-card-border: rgba(255, 255, 255, 0.1);
+  --site-card-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- Page headings ---------- */
+
+.post-header .post-title {
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.post-header .desc {
+  color: var(--global-text-color-light);
+}
+
+// Section headings such as "news", "selected publications", and markdown h2s
+.post article > h2 {
+  font-size: 1.45rem;
+  font-weight: 500;
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  a:hover {
+    color: var(--global-theme-color) !important;
+    text-decoration: none;
+  }
+}
+
+/* ---------- About page profile ---------- */
+
+.profile {
+  img {
+    border-radius: 12px;
+  }
+
+  .more-info {
+    font-family: inherit;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light);
+    margin-top: 0.85rem;
+
+    p {
+      display: block;
+    }
+
+    p:first-child {
+      color: var(--global-text-color);
+      font-weight: 500;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile .more-info {
+    margin-bottom: 1rem;
+  }
+}
+
+// Body-text links on project pages: underline so they don't rely on hue alone
+.post article > p a:not([class]),
+.post article > ul > li > a:not([class]) {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+}
+
+/* ---------- News ---------- */
+
+.news table {
+  th {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    padding-right: 1rem;
+  }
+
+  tr + tr {
+    border-top: 1px dashed var(--global-divider-color);
+  }
+
+  th,
+  td {
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+  }
+}
+
+/* ---------- Publications ---------- */
+
+.publications ol.bibliography li {
+  margin-bottom: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--site-card-border);
+  border-radius: 12px;
+  background: var(--global-card-bg-color);
+  transition:
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: var(--site-card-shadow);
+  }
+
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+
+    > [class*="col"] {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  // Badge + thumbnail column a bit wider, text column fills the rest of the row
+  @media (min-width: 576px) {
+    .row > .abbr {
+      flex: 0 0 24%;
+      max-width: 24%;
+    }
+
+    .row > .col-sm-8 {
+      flex: 0 0 76%;
+      max-width: 76%;
+    }
+  }
+
+  .abbr {
+    margin-bottom: 0;
+
+    abbr.badge {
+      display: block;
+      width: 100%;
+      padding: 0.35rem 0.4rem;
+      margin-bottom: 0.6rem;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      line-height: 1.2;
+      white-space: normal;
+
+      &,
+      * {
+        color: #fff !important;
+      }
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    .preview {
+      width: 100%;
+      background: #fff;
+      border: 1px solid var(--site-card-border);
+      border-radius: 8px !important;
+      box-shadow: none;
+    }
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 1.02rem;
+    line-height: 1.4;
+    margin-bottom: 0.25rem;
+  }
+
+  .author {
+    font-size: 0.93rem;
+  }
+
+  .periodical {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  .links a.btn {
+    margin: 0.5rem 0.35rem 0 0;
+    padding: 0.15rem 0.85rem;
+    border: 1px solid var(--site-card-border);
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      background: var(--site-accent-soft);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      background: var(--site-accent-soft);
+    }
+  }
+}
+
+// My own name in author lists: bold instead of the theme's underline
+.publications ol.bibliography li .author > em {
+  font-weight: 700;
+  font-style: normal;
+  border-bottom: none;
+}
+
+.publications h2.bibliography {
+  color: var(--global-text-color-light);
+  font-weight: 500;
+}
+
+/* ---------- Contact icons ---------- */
+
+.social {
+  margin-top: 2.5rem;
+
+  .contact-icons {
+    font-size: 2.4rem;
+
+    a {
+      margin: 0 0.45rem;
+    }
+
+    a svg {
+      width: 2.4rem;
+      height: 2.6rem;
+    }
+  }
+
+  .contact-note {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+  }
+}
+
+/* ---------- Footer and back-to-top ---------- */
+
+// Theme hover uses the accent color, which has poor contrast on both footer backgrounds
+footer.fixed-bottom a:hover {
+  color: var(--global-footer-link-color);
+  text-decoration: underline;
+}
+
+// Keep the back-to-top button clear of the fixed footer (`:root` matches the theme selector)
+:root #back-to-top {
+  bottom: 50px;
+}
+
+@media (max-width: 575.98px) {
+  :root #back-to-top {
+    bottom: 68px;
+    right: 16px;
+  }
+}
+
+/* ---------- CV page ---------- */
+
+a.cv-download {
+  display: inline-block;
+  padding: 0.5rem 1.15rem;
+  border-radius: 999px;
+  background: var(--global-theme-color);
+  color: var(--global-bg-color) !important;
+  font-weight: 600;
+
+  &:hover {
+    opacity: 0.9;
+    text-decoration: none;
+  }
+}
+
+.cv-embed {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  margin-top: 0.5rem;
+  border: 1px solid var(--site-card-border);
+  border-radius: 12px;
+}
+
+// Inline PDF viewers are unreliable on phones; the download button stays visible
+@media (max-width: 575.98px) {
+  .cv-embed {
+    display: none;
+  }
+}

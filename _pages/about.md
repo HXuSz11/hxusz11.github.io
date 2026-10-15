@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Center for Imaging Science</p>
+    <p>Chester F. Carlson Center for Imaging Science</p>
     <p>Rochester Institute of Technology</p>
     <p>Machine Learning · Computer Vision · Continual Learning</p>
 
@@ -18,7 +18,7 @@ social: true
 
 announcements:
   enabled: true
-  scrollable: true
+  scrollable: false
   limit: 5
 
 latest_posts:

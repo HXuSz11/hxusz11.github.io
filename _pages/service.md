@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Service
+title: service
 permalink: /service/
+description: Academic service and awards.
 nav: true
 nav_order: 5
 ---
 
-## Academic Service
+## Reviewer
 
-### Reviewer
+- **Conferences:** AAAI 2026, ICML 2026, NeurIPS 2026
+- **Journals:** Frontiers in Immunology
 
-- Frontiers in Immunology, AAAI 2026, ICML 2026，NeurIPS 2026
-
-### Awards
+## Awards
 
 - ICML 2026 Gold Reviewer Award
