@@ -9,8 +9,8 @@ nav_order: 5
 
 ## Reviewer
 
-- **Conferences:** AAAI 2026, ICML 2026, NeurIPS 2026
-- **Journals:** Frontiers in Immunology
+- **Conferences:** ICLR 2027, AAAI 2027, NeurIPS 2026, ICML 2026, AAAI 2026
+- **Journals:** Image and Vision Computing, Frontiers in Immunology
 
 ## Awards
 

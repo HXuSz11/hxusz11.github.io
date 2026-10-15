@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student in Imaging Science, Rochester Institute of Technology
+subtitle: Ph.D. Candidate in Imaging Science, Rochester Institute of Technology
 
 profile:
   align: right
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a Ph.D. student in Imaging Science at Rochester Institute of Technology, where I am advised by Prof. Bartosz Krawczyk. My research focuses on machine learning, computer vision, and continual learning.
+I am a Ph.D. candidate in Imaging Science at Rochester Institute of Technology, where I am advised by Prof. Bartosz Krawczyk. My research focuses on vision foundation models, multimodal LLMs/VLMs, and continual learning.
 
-I am interested in building adaptive and reliable visual learning systems that can learn from evolving data streams without catastrophic forgetting. Recently, I have been working on exemplar-free class-incremental learning, prototype-based continual learning, and parameter-efficient adaptation of pretrained vision models.
+I am currently a Research Intern on the Perception team at Pony.ai, where I work on distilling vision foundation models into compact onboard backbones for autonomous-driving perception.
+
+I am interested in building adaptive and reliable visual learning systems that can learn from evolving data streams without catastrophic forgetting. Recently, I have been working on exemplar-free class-incremental learning, parameter-efficient adaptation of pretrained vision models, and continual learning for multimodal LLMs.
 
 My broader research interests include continual learning, computer vision, efficient adaptation, vision-language learning, and trustworthy AI systems.

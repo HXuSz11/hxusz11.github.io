@@ -9,16 +9,16 @@ last_name: Xu
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. student in Imaging Science at Rochester Institute of Technology, working on continual learning, computer vision, and efficient adaptation of visual models.
+  Ph.D. candidate in Imaging Science at Rochester Institute of Technology, working on vision foundation models, multimodal LLMs/VLMs, and continual learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Hongye Xu, continual learning, class-incremental learning, computer vision, machine learning # add your own keywords or leave empty
+keywords: Hongye Xu, continual learning, class-incremental learning, vision foundation models, multimodal LLMs, computer vision, machine learning # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://hxusz11.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
